@@ -1,0 +1,17 @@
+.mainGrid-wrapper {
+  position: relative;
+  height: 50%;
+  padding: 0;
+
+  @include above(md) {
+    height: 100%;
+  }
+
+  .mainGrid {
+    height: 100%;
+    border: 1px solid white;
+    background-image:
+    linear-gradient(to right, grey 1px, transparent 1px),
+    linear-gradient(to bottom, grey 1px, transparent 1px);
+  }
+}
